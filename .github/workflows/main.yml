@@ -33,7 +33,7 @@ jobs:
 
       - name: Azure Machine Learning 확장 설치
         run: |
-          az extension add --name azure-ml
+          az extension add --name ml
       
       - name: 모델 복원
         run: |
