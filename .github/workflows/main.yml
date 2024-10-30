@@ -41,7 +41,7 @@ jobs:
             --resource-group wkddlstjd_rg_2771 \
             --workspace-name isjangml \
             --name RoBERTa-SequenceClassification \ 
-            --version 1 \ 
+            --version 1 \
             --download-path . && \
           mv RoBERTa-SequenceClassification/* ./webapp/ && \
           rm -r RoBERTa-SequenceClassification
