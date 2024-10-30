@@ -30,6 +30,10 @@ jobs:
           subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
           allow-no-subscriptions: true # 구독 없이도 로그인을 허용하려면 이 옵션 추가 (필요에 따라)
 
+
+      - name: Azure Machine Learning 확장 설치
+        run: |
+          az extension add --name azure-ml
       
       - name: 모델 복원
         run: |
