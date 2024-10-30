@@ -9,8 +9,8 @@ on:
   workflow_dispatch:
 
 permissions:
-id-token: write # OIDC 인증을 위한 id-token 쓰기 권한 추가
-contents: read  # 코드 접근을 위한 기본 권한
+  id-token: write # OIDC 인증을 위한 id-token 쓰기 권한 추가
+  contents: read  # 코드 접근을 위한 기본 권한
 
 
 jobs:
